@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Registro de publicadores</title>
+<link rel="shortcut icon" href="images/Pagina/registro.png">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link type="text/css" href="js/jquery/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery/jquery.js"> </script>
+<script type="text/javascript" src="js/jquery/jquery-ui.js"> </script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        botonprueba=$("#prueba");
+		botonprueba.click(prueba);
+    });
+	function prueba()
+	{
+		alert("El evento javascript funciona correctamente");
+	}
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Regitro de publicadores</a></h1>
+		</div>
+		<div id="banner"><img src="images/img01.jpg" width="667" height="118" alt="" /></div>
+	</div>
+	<div id="page" class="container"><div class="inner_copy"></div>
+		<div id="content">
+        <h2>&nbsp;</h2>
+			<form action="" method="post" name="form1">
+            	<table width="100%" border="0" cellspacing="3" style="font-size:24px; color:#00C; background-color: #CCC; border:#009" align="center">
+                  <tr>
+                    <td width="50%" align="center">Nombre de usuario</td>
+                    <td width="50%" align="center">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Contraseña</td>
+                    <td align="center">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" align="center"><input name="boton" id="boton" type="button" value="Ingresar"/></td>
+                  </tr>
+                </table>
+          </form>
+          <h2>&nbsp;</h2>
+		</div>
+		<div class="clearfix">&nbsp;</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
